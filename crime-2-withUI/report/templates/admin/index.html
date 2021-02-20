@@ -1,0 +1,16 @@
+{% extends 'admin/master.html' %}
+
+{% block body %}
+
+
+    {% if current_user.id == 1 %}
+
+        <a href="{{ url_for('account') }}" id = 'link1' style="font-size: xx-large;">Report Centre</a>
+    {% else %}
+        <a href="{{ url_for('login') }}" id = 'link2' style="font-size: xx-large;">Click here to go back</a>
+
+
+     
+    {% endif %}
+
+{% endblock %}
