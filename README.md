@@ -1,4 +1,8 @@
 # Crime-Report
+
+<p>This is a crime reporting application built on Flask framework</p>
+<p> Here new users can add their complaints and the admin can see and update their status to investigating or solved or etc.</p>
+
 <h2>Steps</h2>
 
 <ol>
